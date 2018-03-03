@@ -1,4 +1,4 @@
-package com.tone.tool.httpUtils;
+package com.tone.tool.httputils;
 
 import org.apache.http.conn.ClientConnectionManager;
 import org.apache.http.conn.scheme.Scheme;

@@ -1,4 +1,4 @@
-package com.tone.tool.httpUtils;
+package com.tone.tool.httputils;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;

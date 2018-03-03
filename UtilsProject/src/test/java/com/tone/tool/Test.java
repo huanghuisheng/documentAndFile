@@ -1,8 +1,6 @@
 package com.tone.tool;
 
-import com.tone.tool.httpUtils.HttpUtil;
-
-import java.io.IOException;
+import com.tone.tool.httputils.HttpUtil;
 
 public class Test {
 
