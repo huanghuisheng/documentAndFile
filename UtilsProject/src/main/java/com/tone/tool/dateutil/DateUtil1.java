@@ -16,7 +16,7 @@ public class DateUtil1 {
 
     public static final String PAGE_DATE_INPUT_FORMAT = "yyyy-MM-dd";
 
-    public static final String DB_DATE_INPUT_FORMAT = "yyyy-MM-dd HH:mm:ss";
+    public static final String DB_DATE_INPUT_FORMAT = "yyyy-MM-dd HH:mm:TestXML";
 
     public final static int YEAR = 0;
 
@@ -82,7 +82,7 @@ public class DateUtil1 {
         return "";
     }
 
-    public static final String CREAT_DATE_FORMAT = "yyyy-MM-dd H:mm:ss:SSS";
+    public static final String CREAT_DATE_FORMAT = "yyyy-MM-dd H:mm:TestXML:SSS";
 
     public static String formatCreateDate(Date date) {
         if (date != null) {
@@ -414,7 +414,7 @@ public class DateUtil1 {
     }
 
     public static String getNowDateStrForLog() {
-        return "Time：" + formatDate(new Date(), "yyyy-MM-dd HH:mm:ss");
+        return "Time：" + formatDate(new Date(), "yyyy-MM-dd HH:mm:TestXML");
     }
 
     /**
@@ -507,7 +507,7 @@ public class DateUtil1 {
      */
     public static Date formatDateForMaxDay(Date date) {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-        SimpleDateFormat format2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat format2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:TestXML");
         String str = format.format(date);
         str = str + " 23:59:59";
         try {
@@ -526,7 +526,7 @@ public class DateUtil1 {
      */
     public static Date formatDateForMinDay(Date date) {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-        SimpleDateFormat format2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat format2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:TestXML");
         String str = format.format(date);
         str = str + " 00:00:00";
         try {

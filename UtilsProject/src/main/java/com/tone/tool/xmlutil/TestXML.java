@@ -1,18 +1,16 @@
-package com.xml;
+package com.tone.tool.xmlutil;
 
 
 
 
 //import net.sf.json.JSONObject;
 
-import com.tone.tool.otherutil.Base64;
-import com.tone.tool.xmlutil.PaserDom4jXmlUtil;
 import org.json.JSONObject;
 import org.json.XML;
 
 import java.util.Map;
 
-public class ss {
+public class TestXML {
 
 	public static void main(String[] args) throws Exception {
 		

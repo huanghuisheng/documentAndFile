@@ -15,8 +15,8 @@ public class DateUtil2 {
     private static Logger log = LoggerFactory.getLogger(DateUtil2.class);
 
     private static final String DAFAULT_DATE_FORMAT = "yyyy-MM-dd";
-    private static final String DAFAULT_TIME_FORMAT = "HH:mm:ss";
-    private static final String DAFAULT_DATETIME_FORMAT = "yyyy-M-d HH:mm:ss";
+    private static final String DAFAULT_TIME_FORMAT = "HH:mm:TestXML";
+    private static final String DAFAULT_DATETIME_FORMAT = "yyyy-M-d HH:mm:TestXML";
 
     private static final SimpleDateFormat defaultDateFormat = new SimpleDateFormat(
             DAFAULT_DATE_FORMAT);

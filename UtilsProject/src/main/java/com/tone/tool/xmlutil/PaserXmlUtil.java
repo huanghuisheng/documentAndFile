@@ -115,4 +115,34 @@ public class PaserXmlUtil {
         return "<"+node+" code=\"\" additionDescription2=\""+addition2+"\" codeSystem=\"\" additionDescription=\""+addition+"\" value=\""+value+"\"/>";
     }
 
+//    public static void main(String[] args) {
+//        Document doc = PaserXmlUtil.getDocument(xmlStr);
+//
+//        // 检查类型是否存在(必填)
+//        String producerType = PaserXmlUtil.getNode(doc, "//producerType/text()");
+
+//        for (int i = 0,size = oldList.size(); i < size; i++) {
+//			// 遍历列表  获得化验项目
+//			MemberTestReportsDTO report = (MemberTestReportsDTO)oldList.get(i);
+//			Document document = PaserXmlUtil.getDocument(report.getInspecListItems());
+//			NodeList inspectGroup = PaserXmlUtil.getNodeList(document, "//inspectList/inspectGroups/inspectGroup/@value");
+//			NodeList bdccCodes = PaserXmlUtil.getNodeList(document, "//inspectList/inspectGroups/inspectGroup/@bdccCode");
+//
+//			for (int j = 0; j < inspectGroup.getLength(); j++) {
+//				Node node = inspectGroup.item(j);
+//				Node bdccNode = bdccCodes.item(j);
+//				MemberTestReportsDTO reportDTO = new MemberTestReportsDTO();
+//				String value = node.getNodeValue();
+//				String bdccCode = bdccNode.getNodeValue();
+//				reportDTO.setInspectGroup(value);
+//				reportDTO.setGroupbdccCode(bdccCode);
+//				// 获取原来的属性
+//				reportDTO.setApplyDate(report.getApplyDate());
+//				reportDTO.setOrgName(report.getOrgName());
+//				reportDTO.setId(report.getId());
+//				values.add(reportDTO);
+//			}
+//		}
+//    }
+
 }
